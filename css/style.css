@@ -195,7 +195,6 @@ img {
 .single-item-grid .item-content .item-profile .profile-title {
     display: flex;
 }
-
 .img-wrapper img {
     display: block;
     max-width: 100%;
@@ -210,17 +209,17 @@ img {
     margin-left: 1px;
     font-size: 12px;
 }
-
 .title-default {
     font-size: 36px;
     color: #263238;
     text-transform: capitalize;
     text-align: center;
     font-weight: 500;
-    margin-bottom: 45px;
+    padding: 117px 0 60px;
 }
 .slider-card{
     padding: 0 15px;
+    padding-bottom: 60px;
 }
 .slider .slick-dots {
     position: absolute;
@@ -233,10 +232,10 @@ img {
 }
 .slider .slick-dots li {
     display: inline-block;
+  
 }
 .slider .slick-dots li.slick-active button {
     border: 1px solid #e8e8e8;
-   
     background-color: #8bc34a;
     box-sizing: content-box;
 }
@@ -257,3 +256,5 @@ img {
 .slick-prev,.slick-next {
     outline: none;
 }
+
+
