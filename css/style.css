@@ -76,7 +76,7 @@ img {
 button{
     position: absolute;
     right: 30%;
-    top: 44%;
+    top: 48%;
     padding-right: 20px;
 }
 .banner-search-area .input-group-addon button {
@@ -125,12 +125,18 @@ button{
 .d-flex {
     display: flex;
 }
+.flex-wrap {
+    flex-wrap: wrap;
+}
 .col-3 {
     width: 25%;
     padding: 0 15px;
 }
+
 .single-item {
     margin-bottom: 30px;
+    border: 1px solid #e7ecf2;
+    box-shadow: 4px 4px 12px -4px rgba(0,0,0,0.54);
 }
 .single-item .item-img {
     position: relative;
@@ -160,6 +166,12 @@ button{
     color: #8bc34a;
     font-size: 14px;
 }
+.single-item .item-content .item-info h3 {
+    color: #263238;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
 .single-item .item-content .item-info .price {
     position: absolute;
     top: 20%;
@@ -169,6 +181,9 @@ button{
     color: #263238;
     font-size: 20px;
     font-weight: 700;
+}
+.profile-title {
+    display: flex;
 }
 .single-item .item-content .item-profile {
     padding-top: 20px;
@@ -180,9 +195,7 @@ button{
 .single-item-grid .item-content .item-profile .profile-title {
     display: flex;
 }
-.single-item-grid .item-content .item-profile .profile-title .img-wrapper img {
-    width: inherit;
-}
+
 .img-wrapper img {
     display: block;
     max-width: 100%;
