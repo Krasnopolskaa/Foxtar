@@ -73,12 +73,12 @@ img {
     width: 65%;
     border-radius: 5px;
 }
-button{
+/*button{
     position: absolute;
     right: 30%;
     top: 48%;
     padding-right: 20px;
-}
+}*/
 .banner-search-area .input-group-addon button {
     padding: 20px 25px;
     border: 0;
@@ -209,4 +209,51 @@ button{
     color: #ffa726;
     margin-left: 1px;
     font-size: 12px;
+}
+
+.title-default {
+    font-size: 36px;
+    color: #263238;
+    text-transform: capitalize;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 45px;
+}
+.slider-card{
+    padding: 0 15px;
+}
+.slider .slick-dots {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+.slider .slick-dots li {
+    display: inline-block;
+}
+.slider .slick-dots li.slick-active button {
+    border: 1px solid #e8e8e8;
+   
+    background-color: #8bc34a;
+    box-sizing: content-box;
+}
+.slider .slick-dots li button {
+    width: 13px;
+    cursor: pointer;
+    border: 1px solid transparent;
+    height: 13px;
+    border-radius: 50%;
+    font-size: 0;
+    background-color: #d5d5d5;
+    padding: 0;
+    margin-left: 3px;
+    margin-right: 3px;
+    outline: none;
+    text-align: center;
+}
+.slick-prev,.slick-next {
+    outline: none;
 }
