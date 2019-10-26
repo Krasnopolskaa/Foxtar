@@ -1,24 +1,759 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" href="./css/main.css">
-</head>
-<body>
-    <script
-    src="https://code.jquery.com/jquery-3.4.1.min.js"
-    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-    crossorigin="anonymous">
-    </script>
-    <script
-    src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
-    integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
-    crossorigin="anonymous"></script>
-    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
-    <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
-    <script src="./js/main.js"></script>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/slick.css">
+        <title>Document</title>
+        <link rel="stylesheet" href="./css/main.css">
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="main-banner">
+                <div class="container">
+                    <div class="main-wrapper">                       
+                        <h1>Welcome To Foxtar Market Place!</h1>
+                        <p>Premium WordPress Themes, Web Templates and Many More ...</p>
+                        <form class="banner-search-area input-group">
+                            <input class="form-control" placeholder="Search Your Keywords . . ." type="text">
+                        </form>
+                        <button type="submit">
+                            <span class="glyphicon glyphicon-search"></span>
+                        </button> 
+                    </div>
+                </div>
+            </div>
+            <section class="news-product">
+                <div class="container">
+                    <h2 class="title-default">Let's Check Out Our Newest Release Prodcuts</h2>
+                </div>
+                <div class="container-fluid">
+                    <div class="isotope-classes btn-white"> 
+                        <ul>
+                            <li><a href="#">All</a></li>
+                            <li><a href="#">WordPress</a></li>
+                            <li><a href="#">Joomla</a></li>
+                            <li><a href="#">Plugins</a></li>
+                            <li><a href="#">Component</a></li>
+                            <li><a href="#">PSD</a></li>
+                        </ul>
+                    </div>
+                    <div class="row d-flex flex-wrap">
+                        <div class="col-3">
+                            <div class="single-item">
+                                <div class="item-img">
+                                    <img src="img/images.jpeg" alt="">
+                                </div>
+                                <div class="item-content">
+                                    <div class="item-info">
+                                        <h3>
+                                            <a href="#">Responsive Mobile APP</a>
+                                        </h3>
+                                        <span>Site Template</span>
+                                        <div class="price">$19</div>
+                                    </div>
+                                    <div class="item-profile">
+                                        <div class="profile-title">
+                                            <div class="img-wrapper"><img src="img/1.jpg" alt="" class="img-circle"></div>
+                                        </div>
+                                        <span>Radiustheme</span>
+                                        <div class="profile-rating">
+                                            <ul>
+                                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                <li>(<span> 05</span> )</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="single-item">
+                                <div class="item-img">
+                                    <img src="img/images.jpeg" alt="">
+                                    <div class="trend-items">
+                                        <i class="fa fa-bolt"></i>
+                                    </div>
+                                </div>
+                                <div class="item-content">
+                                    <div class="item-info">
+                                        <h3>
+                                            <a href="#">The Post Grid Pro</a>
+                                        </h3>
+                                        <span>WordPress Plugin</span>
+                                        <div class="price">$15</div>
+                                    </div>
+                                    <div class="item-profile">
+                                            <div class="profile-title">
+                                                <div class="img-wrapper"><img src="img/1.jpg" alt="" class="img-circle"></div>
+                                            </div>
+                                            <span>PsdBosS</span>
+                                        <div class="profile-rating">
+                                            <ul>
+                                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                <li>(<span> 05</span> )</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="single-item">
+                                <div class="item-img">
+                                    <img src="img/images.jpeg" alt="">
+                                </div>
+                                <div class="item-content">
+                                    <div class="item-info">
+                                        <h3>
+                                            <a href="#">Food Menu</a>
+                                        </h3>
+                                        <span>WordPress Plugin</span>
+                                        <div class="price">$20</div>
+                                    </div>
+                                    <div class="item-profile">
+                                            <div class="profile-title">
+                                                <div class="img-wrapper"><img src="img/1.jpg" alt="" class="img-circle"></div>
+                                            </div>
+                                            <span>Manilip</span>
+                                            <div class="profile-rating">
+                                            <ul>
+                                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                <li>(<span> 05</span> )</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="single-item">
+                                <div class="item-img">
+                                    <img src="img/images.jpeg" alt="">
+                                </div>
+                                <div class="item-content">
+                                    <div class="item-info">
+                                        <h3>
+                                            <a href="#">Imac Mockup</a>
+                                        </h3>
+                                        <span>Psd Template</span>
+                                        <div class="price">$15</div>
+                                    </div>
+                                    <div class="item-profile">
+                                        <div class="profile-title">
+                                            <div class="img-wrapper"><img src="img/1.jpg" alt="" class="img-circle"></div>
+                                        </div>
+                                        <span>Lolypop</span>
+                                        <div class="profile-rating">
+                                            <ul>
+                                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                <li>(<span> 05</span> )</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="single-item">
+                                <div class="item-img">
+                                    <img src="img/images.jpeg" alt="">
+                                </div>
+                                <div class="item-content">
+                                    <div class="item-info">
+                                        <h3>
+                                            <a href="#">Gymedge</a>
+                                        </h3>
+                                        <span>Joomla Template</span>
+                                        <div class="price">$45</div>
+                                    </div>
+                                    <div class="item-profile">
+                                        <div class="profile-title">
+                                            <div class="img-wrapper"><img src="img/1.jpg" alt="" class="img-circle"></div>
+                                        </div>
+                                        <span>Micrsof</span>
+                                        <div class="profile-rating">
+                                            <ul>
+                                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                <li>(<span> 05</span> )</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="single-item">
+                                <div class="item-img">
+                                    <img src="img/images.jpeg" alt="">
+                                </div>
+                                <div class="item-content">
+                                    <div class="item-info">
+                                        <h3>
+                                            <a href="#">The Post Grid Pro</a>
+                                        </h3>
+                                        <span>WordPress Plugin</span>
+                                        <div class="price">$19</div>
+                                    </div>
+                                    <div class="item-profile">
+                                        <div class="profile-title">
+                                            <div class="img-wrapper"><img src="img/1.jpg" alt="" class="img-circle"></div>
+                                        </div>
+                                        <span>Raklouse</span>
+                                        <div class="profile-rating">
+                                            <ul>
+                                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                <li>(<span> 05</span> )</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="single-item">
+                                <div class="item-img">
+                                    <img src="img/images.jpeg" alt="">
+                                    <div class="trend-items">
+                                        <i class="fa fa-bolt"></i>
+                                    </div>
+                                </div>
+                                <div class="item-content">
+                                    <div class="item-info">
+                                        <h3>
+                                            <a href="#">Doll Face</a>
+                                        </h3>
+                                        <span>Illustration</span>
+                                        <div class="price">$10</div>
+                                    </div>
+                                    <div class="item-profile">
+                                        <div class="profile-title">
+                                            <div class="img-wrapper"><img src="img/1.jpg" alt="" class="img-circle"></div>
+                                        </div>
+                                        <span>Mikc Art</span>
+                                        <div class="profile-rating">
+                                            <ul>
+                                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                <li>(<span> 05</span> )</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="single-item">
+                                <div class="item-img">
+                                    <img src="img/images.jpeg" alt="">
+                                </div>
+                                <div class="item-content">
+                                    <div class="item-info">
+                                        <h3>
+                                            <a href="#">Designer Mockup</a>
+                                        </h3>
+                                        <span>PsdTemplate</span>
+                                        <div class="price">$10</div>
+                                    </div>
+                                    <div class="item-profile">
+                                        <div class="profile-title">
+                                            <div class="img-wrapper"><img src="img/1.jpg" alt="" class="img-circle"></div>
+                                        </div>
+                                        <span>ThemeLol</span>
+                                        <div class="profile-rating">
+                                            <ul>
+                                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                <li>(<span> 05</span> )</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container back-color text-center">
+                        <ul class="btn-area">
+                            <li class="hvr-bounce-to-right"><a href="#">All New Items</a></li>
+                            <li class="hvr-bounce-to-left"><a href="#">Popular Items</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section class="trend-product">
+                <div class="container">
+                    <h2 class="title-default">This Week Trending Products</h2>
+                </div>
+                <div class="container-fluid">
+                    <div class="slider">
+                        <div class="slider-card">
+                                <div class="single-item">
+                                    <div class="item-img">
+                                        <img src="img/images.jpeg" alt="">
+                                        <div class="trend-items">
+                                            <i class="fa fa-bolt"></i>
+                                        </div>
+                                    </div>
+                                    <div class="item-content">
+                                        <div class="item-info">
+                                            <h3>
+                                                <a href="#">Responsive Template</a>
+                                            </h3>
+                                            <span>Site Template</span>
+                                            <div class="price">$19</div>
+                                        </div>
+                                        <div class="item-profile">
+                                            <div class="profile-title">
+                                                <div class="img-wrapper"><img src="img/1.jpg" alt="" class="img-circle"></div>
+                                            </div>
+                                            <span>Radiustheme</span>
+                                            <div class="profile-rating">
+                                                <ul>
+                                                    <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                    <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                    <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                    <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                    <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                    <li>(<span> 05</span> )</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slider-card">
+                                <div class="single-item">
+                                    <div class="item-img">
+                                        <img src="img/images.jpeg" alt="">
+                                        <div class="trend-items">
+                                            <i class="fa fa-bolt"></i>
+                                        </div>
+                                    </div>
+                                    <div class="item-content">
+                                        <div class="item-info">
+                                            <h3>
+                                                <a href="#">The Post Grid Pro</a>
+                                            </h3>
+                                            <span>WordPress Plugin</span>
+                                            <div class="price">$15</div>
+                                        </div>
+                                        <div class="item-profile">
+                                            <div class="profile-title">
+                                                <div class="img-wrapper"><img src="img/1.jpg" alt="" class="img-circle"></div>
+                                            </div>
+                                            <span>PsdBosS</span>
+                                            <div class="profile-rating">
+                                                <ul>
+                                                    <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                    <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                    <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                    <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                    <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                    <li>(<span> 05</span> )</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slider-card">
+                                <div class="single-item">
+                                    <div class="item-img">
+                                        <img src="img/images.jpeg" alt="">
+                                        <div class="trend-items">
+                                            <i class="fa fa-bolt"></i>
+                                        </div>
+                                    </div>
+                                    <div class="item-content">
+                                        <div class="item-info">
+                                            <h3>
+                                                <a href="#">logo Showcae</a>
+                                            </h3>
+                                            <span>Joomla Cmponent</span>
+                                            <div class="price">$20</div>
+                                        </div>
+                                        <div class="item-profile">
+                                            <div class="profile-title">
+                                                <div class="img-wrapper"><img src="img/1.jpg" alt="" class="img-circle"></div>
+                                            </div>
+                                            <span>Marillip</span>
+                                            <div class="profile-rating">
+                                                <ul>
+                                                    <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                    <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                    <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                    <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                    <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                    <li>(<span> 05</span> )</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slider-card">
+                                <div class="single-item">
+                                    <div class="item-img">
+                                        <img src="img/images.jpeg" alt="">
+                                        <div class="trend-items">
+                                            <i class="fa fa-bolt"></i>
+                                        </div>
+                                    </div>
+                                    <div class="item-content">
+                                        <div class="item-info">
+                                            <h3>
+                                                <a href="#">UI Design</a>
+                                            </h3>
+                                            <span>Psd Template</span>
+                                            <div class="price">$12</div>
+                                        </div>
+                                        <div class="item-profile">
+                                            <div class="profile-title">
+                                                <div class="img-wrapper"><img src="img/1.jpg" alt="" class="img-circle"></div>
+                                            </div>
+                                            <span>Lolypop</span>
+                                            <div class="profile-rating">
+                                                <ul>
+                                                    <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                    <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                    <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                    <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                    <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                    <li>(<span> 05</span> )</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        <div class="slider-card">
+                            <div class="single-item">
+                                <div class="item-img">
+                                    <img src="img/images.jpeg" alt="">
+                                    <div class="trend-items">
+                                        <i class="fa fa-bolt"></i>
+                                    </div>
+                                </div>
+                                <div class="item-content">
+                                    <div class="item-info">
+                                        <h3>
+                                            <a href="#">Designer Mockup</a>
+                                        </h3>
+                                        <span>PsdTemplate</span>
+                                        <div class="price">$10</div>
+                                    </div>
+                                    <div class="item-profile">
+                                        <div class="profile-title">
+                                            <div class="img-wrapper"><img src="img/1.jpg" alt="" class="img-circle"></div>
+                                        </div>
+                                        <span>ThemeLol</span>
+                                        <div class="profile-rating">
+                                            <ul>
+                                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                <li>(<span> 05</span> )</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider-card">
+                            <div class="single-item">
+                                <div class="item-img">
+                                    <img src="img/images.jpeg" alt="">
+                                    <div class="trend-items">
+                                        <i class="fa fa-bolt"></i>
+                                    </div>
+                                </div>
+                                <div class="item-content">
+                                    <div class="item-info">
+                                        <h3>
+                                            <a href="#">Designer Mockup</a>
+                                        </h3>
+                                        <span>PsdTemplate</span>
+                                        <div class="price">$10</div>
+                                    </div>
+                                    <div class="item-profile">
+                                        <div class="profile-title">
+                                            <div class="img-wrapper"><img src="img/1.jpg" alt="" class="img-circle"></div>
+                                        </div>
+                                        <span>ThemeLol</span>
+                                        <div class="profile-rating">
+                                            <ul>
+                                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                <li>(<span> 05</span> )</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider-card">
+                            <div class="single-item ">
+                                <div class="item-img">
+                                    <img src="img/images.jpeg" alt="">
+                                    <div class="trend-items">
+                                        <i class="fa fa-bolt"></i>
+                                    </div>
+                                </div>
+                                <div class="item-content">
+                                    <div class="item-info">
+                                        <h3>
+                                            <a href="#">Responsive Template</a>
+                                        </h3>
+                                        <span>Site Template</span>
+                                        <div class="price">$19</div>
+                                    </div>
+                                    <div class="item-profile">
+                                        <div class="profile-title">
+                                            <div class="img-wrapper"><img src="img/1.jpg" alt="" class="img-circle"></div>
+                                        </div>
+                                        <span>Radiustheme</span>
+                                        <div class="profile-rating">
+                                            <ul>
+                                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                <li>(<span> 05</span> )</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider-card">
+                            <div class="single-item">
+                                <div class="item-img">
+                                    <img src="img/images.jpeg" alt="">
+                                    <div class="trend-items">
+                                        <i class="fa fa-bolt"></i>
+                                    </div>
+                                </div>
+                                <div class="item-content">
+                                    <div class="item-info">
+                                        <h3>
+                                            <a href="#">Designer Mockup</a>
+                                        </h3>
+                                        <span>PsdTemplate</span>
+                                        <div class="price">$10</div>
+                                    </div>
+                                    <div class="item-profile">
+                                        <div class="profile-title">
+                                            <div class="img-wrapper"><img src="img/1.jpg" alt="" class="img-circle"></div>
+                                        </div>
+                                        <span>ThemeLol</span>
+                                        <div class="profile-rating">
+                                            <ul>
+                                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                <li>(<span> 05</span> )</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider-card">
+                            <div class="single-item">
+                                <div class="item-img">
+                                    <img src="img/images.jpeg" alt="">
+                                    <div class="trend-items">
+                                        <i class="fa fa-bolt"></i>
+                                    </div>
+                                </div>
+                                <div class="item-content">
+                                    <div class="item-info">
+                                        <h3>
+                                            <a href="#">Responsive Template</a>
+                                        </h3>
+                                        <span>Site Template</span>
+                                        <div class="price">$19</div>
+                                    </div>
+                                    <div class="item-profile">
+                                        <div class="profile-title">
+                                            <div class="img-wrapper"><img src="img/1.jpg" alt="" class="img-circle"></div>
+                                        </div>
+                                        <span>Radiustheme</span>
+                                        <div class="profile-rating">
+                                            <ul>
+                                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                <li>(<span> 05</span> )</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider-card">
+                            <div class="single-item">
+                                <div class="item-img">
+                                    <img src="img/images.jpeg" alt="">
+                                    <div class="trend-items">
+                                        <i class="fa fa-bolt"></i>
+                                    </div>
+                                </div>
+                                <div class="item-content">
+                                    <div class="item-info">
+                                        <h3>
+                                            <a href="#">The Post Grid Pro</a>
+                                        </h3>
+                                        <span>WordPress Plugin</span>
+                                        <div class="price">$15</div>
+                                    </div>
+                                    <div class="item-profile">
+                                        <div class="profile-title">
+                                            <div class="img-wrapper"><img src="img/1.jpg" alt="" class="img-circle"></div>
+                                        </div>
+                                        <span>PsdBosS</span>
+                                        <div class="profile-rating">
+                                            <ul>
+                                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                <li>(<span> 05</span> )</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider-card">
+                            <div class="single-item">
+                                <div class="item-img">
+                                    <img src="img/images.jpeg" alt="">
+                                    <div class="trend-items">
+                                        <i class="fa fa-bolt"></i>
+                                    </div>
+                                </div>
+                                <div class="item-content">
+                                    <div class="item-info">
+                                        <h3>
+                                            <a href="#">logo Showcae</a>
+                                        </h3>
+                                        <span>Joomla Cmponent</span>
+                                        <div class="price">$20</div>
+                                    </div>
+                                    <div class="item-profile">
+                                        <div class="profile-title">
+                                            <div class="img-wrapper"><img src="img/1.jpg" alt="" class="img-circle"></div>
+                                        </div>
+                                        <span>Marillip</span>
+                                        <div class="profile-rating">
+                                            <ul>
+                                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                <li>(<span> 05</span> )</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider-card">
+                            <div class="single-item">
+                                <div class="item-img">
+                                    <img src="img/images.jpeg" alt="">
+                                    <div class="trend-items">
+                                        <i class="fa fa-bolt"></i>
+                                    </div>
+                                </div>
+                                <div class="item-content">
+                                    <div class="item-info">
+                                        <h3>
+                                            <a href="#">UI Design</a>
+                                        </h3>
+                                        <span>Psd Template</span>
+                                        <div class="price">$12</div>
+                                    </div>
+                                    <div class="item-profile">
+                                        <div class="profile-title">
+                                            <div class="img-wrapper"><img src="img/1.jpg" alt="" class="img-circle"></div>
+                                        </div>
+                                        <span>Lolypop</span>
+                                        <div class="profile-rating">
+                                            <ul>
+                                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                <li>(<span> 05</span> )</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <script
+        src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous">
+        </script>
+        <script
+        src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+        integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+        crossorigin="anonymous"></script>
+        <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+        <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
+        <script src="js/slick.js"></script> 
+        <script src="./js/main.js"></script>
+    </body>
 </html>
