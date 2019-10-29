@@ -75,7 +75,7 @@ h1 {
 }
 .banner-search-area {
     background: #ebebeb;
-    border: 1px solid #BDBDBD;
+    border: 1px solid #8f9e81;
     padding: 0;
     width: 50%;
     border-radius: 5px;
@@ -86,14 +86,12 @@ h1 {
     border: none;
     border-radius: 0;
     background: transparent;
-    text-transform: lowercase;
     color: #111111;
     font-size: 18px;
     top: 14px;
     padding: 20px 25px;
     background: #ebebeb;
-    width: 50%;
-    border-radius: 5px;
+ 
 }
 
 .banner-search-area .input-group-addon button {
@@ -112,14 +110,12 @@ h1 {
 }
 .isotope-classes {
     text-align: center;
-    padding-top: 60px;
-    padding-bottom: 60px;
 }
 .isotope-classes ul li{
     display: inline;
     text-align: center;
 }
-.btn-white li{
+.btn-white li {
     background: #ebebeb;
     padding: 10px 26px;
     font-size: 14px;
@@ -128,6 +124,7 @@ h1 {
     margin: 0 3px 5px;
     text-transform: capitalize;
     display: inline-block;
+    transition: all 0.5s ease-out;
 }
 .btn-white li:hover {
     box-shadow: 0px 2px 5px 0px rgba(50, 50, 50, 0.75);
@@ -162,6 +159,20 @@ h1 {
     border-right: 60px solid transparent;
     z-index: 3;
 }
+.bloc1 {
+    filter: url(filters.svg#grayscale);
+    filter: gray;
+    -webkit-transition: all .5s ease-in-out;
+  }
+.bloc1:hover {
+    filter: none;
+    -webkit-transform: scale(1.1);
+    position: relative;
+    z-index: 1;
+  }
+.isotope-classes .markup  {
+    padding-bottom: 60px;
+}
 .single-item .item-img .trend-items i {
     color: #ebebeb;
     font-size: 18px;
@@ -179,6 +190,7 @@ h1 {
     padding-bottom: 15px;
     border-bottom: 1px solid #e7ecf2;
     position: relative;
+    text-align: left;
 }
 .single-item .item-content .item-info span {
     color: #8bc34a;
@@ -192,7 +204,7 @@ h1 {
 }
 .single-item .item-content .item-info .price {
     position: absolute;
-    top: 20%;
+    top: 35%;
     right: 0;
     transform: translateY(-50%);
     z-index: 1;
