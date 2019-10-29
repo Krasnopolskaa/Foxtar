@@ -30,6 +30,11 @@
   }
   .icon-search:before {
     content: "\e986";
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .icon-power:before {
+    content: "\e9b5";
   }
   .icon-star-empty:before {
     content: "\e9d7";
@@ -39,5 +44,29 @@
   }
   .icon-star-full:before {
     content: "\e9d9";
+    font-size: 12px;
   }
-  
+  .icon-sort:before {
+    content: "\e900";
+  }
+  .icon-th-large:before {
+    content: "\e901";
+  }
+  .icon-sort:before {
+    content: "\e900";
+  }
+  .icon-search:before {
+    content: "\e986";
+  }
+  .icon-power:before {
+    content: "\e9b5";
+  }
+  .icon-list:before {
+    content: "\e9ba";
+  }
+  .icon-star-full:before {
+    content: "\e9d9";
+  }
+  .icon-sort-amount-desc:before {
+    content: "\ea4d";
+  }
