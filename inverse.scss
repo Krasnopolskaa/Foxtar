@@ -1,0 +1,44 @@
+.section-inverse {
+    background-color: #333333;
+    max-width: 100%;
+}
+.container-inverse {
+    
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+}
+.container {
+    width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.title-inverse h2 {
+    padding-bottom: 90px;
+    padding-top: 125px;
+    text-align: center;
+    margin: 0;
+}
+.raw-inverse {
+    display: flex;
+    margin: 0 -15px;
+}
+.col-4 {
+    width: 33.3%;
+    padding: 0 15px;
+}
+.card4 {
+	text-align: center;
+    padding-bottom: 107px;
+}
+.card4-image {
+    padding: 0 22px;
+}
+.car4-title h3 {
+    line-height: 2;
+    letter-spacing: 1px;
+}
+.card4-text span {
+	color:#669999;
+    font-weight: 600;
+}
