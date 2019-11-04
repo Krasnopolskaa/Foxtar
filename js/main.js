@@ -1,5 +1,7 @@
 $(function() {
   $( "#tabs" ).tabs();
+  $( ".product-details-tab-area" ).tabs();
+  $('.dropdown-toggle').dropdown()
   $('.slider').slick({
       dots: true,
       infinite: false,
@@ -36,4 +38,18 @@ $(function() {
         
       ]
     })
-  });
+    if ($('#personal-info-form select.select2, .checkout-form-select2 select.select2').length) {
+      $('#personal-info-form select.select2, .checkout-form-select2 select.select2').select2({
+          theme: 'classic',
+          dropdownAutoWidth: true,
+          width: '100%'
+      });
+  }
+      
+    })
+ 
+
+
+
+
+
