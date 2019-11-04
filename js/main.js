@@ -1,7 +1,7 @@
 $(function() {
   $( "#tabs" ).tabs();
   $( ".product-details-tab-area" ).tabs();
-  $('.dropdown-toggle').dropdown()
+  $('.dropdown-toggle').dropdown();
   $('.slider').slick({
       dots: true,
       infinite: false,
@@ -10,7 +10,7 @@ $(function() {
       slidesToScroll: 2,
       arrows: false,
       autoplay: true,
-     autoplaySpeed: 2000,
+      autoplaySpeed: 2000,
       responsive: [
         {
           breakpoint: 1024,
@@ -38,15 +38,7 @@ $(function() {
         
       ]
     })
-    if ($('#personal-info-form select.select2, .checkout-form-select2 select.select2').length) {
-      $('#personal-info-form select.select2, .checkout-form-select2 select.select2').select2({
-          theme: 'classic',
-          dropdownAutoWidth: true,
-          width: '100%'
-      });
-  }
-      
-    })
+  });
  
 
 
