@@ -1,0 +1,32 @@
+.title-inverse h2 {
+    padding-bottom: 90px;
+    text-align: center;
+    margin: 0;
+    font-size: 36px;
+}
+.raw {
+    display: flex;
+    margin: 0 -15px;
+}
+.col-4 {
+    width: 33.3%;
+    padding: 0 15px;
+}
+.card4 {
+    text-align: center;
+}
+.card4-image {
+    padding: 0 22px;
+}
+.car4-title h3 {
+    line-height: 2;
+    font-size: 24px;
+    letter-spacing: 1px;
+}
+.car4-title h3:hover {
+    color: #99cc33;
+    }
+.card4-text span {
+    color:#669999;
+    font-weight: 600;
+}
