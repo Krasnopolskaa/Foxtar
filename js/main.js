@@ -1,7 +1,6 @@
 $(function() {
   $( ".tabs" ).tabs();
   $( ".product-details-tab-area" ).tabs();
-  //$('.dropdown-toggle').dropdown();
   $('.slider').slick({
     dots: true,
     infinite: false,

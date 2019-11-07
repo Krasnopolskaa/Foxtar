@@ -2048,7 +2048,7 @@
             }
         }
 
-    };
+    };*/
 
     Slick.prototype.setDimensions = function() {
 
